@@ -2,7 +2,7 @@
 # https://help.github.com/articles/dealing-with-line-endings/
 *.bat text eol=crlf
 
-*.csharp linguist-detectable=true
+*.csharp linguist-detectable=false
 *.java linguist-detectable=false
 *.js linguist-detectable=true
 *.html linguist-detectable=false
