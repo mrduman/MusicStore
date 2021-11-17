@@ -21,7 +21,7 @@ const SongCard = (props) => {
                     )}
                 </View>
                 <View style={styles.album_container}>
-                    <Text style={styles.album}>{props.song.album}</Text>
+                    <Text style={styles.album}>Album : {props.song.album}</Text>
                 </View>
             </View>
         </View>

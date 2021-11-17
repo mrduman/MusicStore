@@ -38,13 +38,14 @@ export default StyleSheet.create({
     },
     soldout_container : {
         borderWidth :1,
-        borderColor : 'red',
+        borderColor : 'black',
         padding :5, 
         borderRadius :5,
         borderEndWidth:1,
         borderTopWidth:2,
         borderWidth:5,
-        backgroundColor:'black'
+        backgroundColor:'red',
+        bottom :34
         
     },
     content_container : {
@@ -53,19 +54,21 @@ export default StyleSheet.create({
 
     },
     soldout_title : {
-        color :'red',
-        fontSize:13
+        color :'black',
+        fontSize:13,
+        
     },
     album : {
         borderWidth :1,
-        borderColor:'purple',
+        borderColor:'black',
         padding:5,
         borderRadius:5,
         fontSize:13,
-        width:120,
+        width:140,
         top:2,
         fontWeight:'500',
-        textAlign:'left'
+        textAlign:'left',
+        textAlign: 'center'
         
         
 
